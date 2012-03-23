@@ -128,42 +128,76 @@ if(!empty($_POST)){
 			
 			<ul>
 				<li>
-					<!--
-<div>
+					<div class="one">
 						<h2>Site Title</h2>
 						<a href="" title="">Live link</a>
 						<a href="" title="">Quick Preview</a>
 						<a href="" title="">Case Study</a>
 					</div>
--->
-					<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
+					<div class="two">
+						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
+					</div>
+					
 				</li>
 				<li>
-					<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
+					<div class="one">
+						<h2>Site Title</h2>
+						<a href="" title="">Live link</a>
+						<a href="" title="">Quick Preview</a>
+						<a href="" title="">Case Study</a>
+					</div>
+					<div class="two">
+						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
+					</div>
+					
 				</li>
 				<li>
-					<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
+					<div class="one">
+						<h2>Site Title</h2>
+						<a href="" title="">Live link</a>
+						<a href="" title="">Quick Preview</a>
+						<a href="" title="">Case Study</a>
+					</div>
+					<div class="two">
+						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
+					</div>
+					
 				</li>
 				<li>
-					<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
+					<div class="one">
+						<h2>Site Title</h2>
+						<a href="" title="">Live link</a>
+						<a href="" title="">Quick Preview</a>
+						<a href="" title="">Case Study</a>
+					</div>
+					<div class="two">
+						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
+					</div>
+					
 				</li>
 				<li>
-					<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
+					<div class="one">
+						<h2>Site Title</h2>
+						<a href="" title="">Live link</a>
+						<a href="" title="">Quick Preview</a>
+						<a href="" title="">Case Study</a>
+					</div>
+					<div class="two">
+						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
+					</div>
+					
 				</li>
 				<li>
-					<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
-				</li>
-				<li>
-					<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
-				</li>
-				<li>
-					<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
-				</li>
-				<li>
-					<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
-				</li>
-				<li>
-					<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
+					<div class="one">
+						<h2>Site Title</h2>
+						<a href="" title="">Live link</a>
+						<a href="" title="">Quick Preview</a>
+						<a href="" title="">Case Study</a>
+					</div>
+					<div class="two">
+						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
+					</div>
+					
 				</li>
 				
 			</ul>
@@ -188,6 +222,24 @@ if(!empty($_POST)){
   <script defer src="js/plugins.js"></script>
   <script defer src="js/script.js"></script>
   <!-- end scripts-->
+  
+  <script type="text/javascript">
+
+
+		$(function() {
+			
+			$('.works li').hover(function(){
+				$(this).find('div:first-child').css('display', 'block');
+			}, function(){
+				$(this).find('div:first-child').css('display', 'none');
+			}
+			
+			);
+		
+		
+		});
+
+	</script>
 
 
   <script> // Change UA-XXXXX-X to be your site's ID
