@@ -380,7 +380,7 @@ footer p{
 		width: 100%;
 	}
 	.works li img{
-		background: black;
+		background: grey;
 		width: 96%;
 		border: 5px solid #fff;
 		-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
@@ -467,8 +467,7 @@ and (max-width : 781px) {
 	.works li:nth-child(3n+3){
 		margin-right: 0;
 	}
-	.works li img{
-		background: black;
+	.works li{
 /* 		width: 96%; */
 		border: 5px solid #fff;
 		-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
