@@ -256,6 +256,16 @@ label.error{
 	padding: 2px;
 
 }
+.works li{
+	cursor: pointer;
+	position: relative;
+}
+.works li div:first-child{
+	position: absolute;
+	display: none;
+	background: rgba(0,0,0,.8);
+	width: 100%;
+}
 .works li h3{
 	font-family: ComfortaaRegular;
 	color: #1ab2e3;
