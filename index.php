@@ -123,6 +123,7 @@ if(!empty($_POST)){
 	    
 	    	</div><!-- right -->
 		</div><!-- home -->
+
 		
 		<div class="works">
 			
@@ -136,8 +137,7 @@ if(!empty($_POST)){
 					</div>
 					<div class="two">
 						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
-					</div>
-					
+					</div>	
 				</li>
 				<li>
 					<div class="one">
