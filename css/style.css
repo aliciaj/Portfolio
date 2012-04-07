@@ -36,7 +36,7 @@ sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: b
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 /* ul, ol { margin: 1em 0; padding: 0 0 0 40px; } */
-dd { margin: 0 0 0 40px; }
+/* dd { margin: 0 0 0 40px; } */
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 svg:not(:root) { overflow: hidden; }
@@ -262,7 +262,7 @@ label.error{
 }
 .works li div:first-child{
 	position: absolute;
-	display: none;
+/* 	display: none; */
 	background: rgba(0,0,0,.8);
 	width: 100%;
 	height: 100%;
@@ -289,6 +289,22 @@ label.error{
 	text-transform: lowercase;
 	font-family: Geneva;
 }
+.works h2{
+	color: #fff;
+	margin: 15px 0 15px 15px;
+	font-size: 15px;
+}
+.works div:first-child a{
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 0 15px 0;
+}
+
+/* =================== 
+	 Case: 
+================= */
+
 
 /* =================== 
 	 Footer: 
@@ -364,7 +380,7 @@ footer p{
 	
 }
 
-
+/* where navigation shifts */
 @media only screen and (max-width: 590px) {
 
 	nav{
@@ -382,6 +398,27 @@ footer p{
 		background: grey;
 		width: 100%;	
 	}
+	.casestudy .imgmain{
+		border: 5px solid #fff;
+		-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+		-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+		box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+		margin: 0 0 25px 0;
+	}
+	.casestudy img{
+		width: 100%;
+	}
+	.casestudy dl{
+		width: 100%;
+		overflow: hidden;
+		margin-bottom: 25px;
+	}
+	.casestudy dt{
+		font-size: 18px;
+	}
+	.casestudy dd{
+		font-size: 16px;
+	}
 	
 }
 
@@ -398,6 +435,35 @@ footer p{
 	}
 	nav li:last-child{
 		margin-right: 0;
+	}
+	.casestudy .imgmain{
+		border: 5px solid #fff;
+		-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+		-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+		box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+		margin: 0 0 25px 0;
+	}
+	.casestudy img{
+		width: 100%;
+	}
+	.casestudy dl{
+		background: aqua;
+		width: 100%;
+		overflow: hidden;
+		margin-bottom: 25px;
+		
+	}
+	.casestudy dt{
+		float: left;
+		background: gray;
+		width: 18.072289%;    /* 830/150 */
+		font-size: 18px;
+	}
+	.casestudy dd{
+		float: left;
+		width: 81.9277%;  /* 680/830 */
+		background: yellow;
+		font-size: 16px;
 	}
 	
 }

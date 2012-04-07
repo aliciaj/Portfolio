@@ -64,6 +64,9 @@ if(!empty($_POST)){
   	.home{
   		display: none;
   	}
+  	.works{
+  		display: none;
+  	}
   </style>
 </head>
 
@@ -202,6 +205,31 @@ if(!empty($_POST)){
 				
 			</ul>
 		</div><!-- works -->
+			
+		<div class="casestudy">
+			<h2>The Barn</h2>
+			<div class="imgmain"><img src="img/case/barn_main.jpg" alt="The Barn"/></div>
+			<dl>
+				<dt>Problem:</dt>
+				<dd>This site was done for Clayton Baker who in the summer seasons hires gigs for everyone in the area to come see. After all the bands pack up for the night its rave time! This site allows people to view all the information for the upcoming shows as well as a contact form for bands to sign up to play. It also has its own admin system I created by hand so that Clayton can update his own show information.</dd>
+			</dl>
+			<dl>
+				<dt>Skills Used:</dt>
+				<dd>Photoshop, Illustrator, HTML, CSS, Knockout.js, PHP.</dd>
+			</dl>
+			<dl>	
+				<dt>Live Link</dt>
+				<dd><a href="http://thebarninstjoe.com/" title="The Barn" target="_blank">The Barn</a></dd>
+			</dl>
+			<dl>	
+				<dt>Other Screenshots:</dt>
+				<dd>
+					
+				</dd>
+			</dl>
+			
+		
+		</div><!-- casestudy -->
     	
 	</div><!-- content -->
     </div><!-- main -->
@@ -228,13 +256,15 @@ if(!empty($_POST)){
 
 		$(function() {
 			
-			$('.works li').hover(function(){
+			/*
+$('.works li').hover(function(){
 				$(this).find('div:first-child').css('display', 'block');
 			}, function(){
 				$(this).find('div:first-child').css('display', 'none');
 			}
 			
 			);
+*/
 		
 		
 		});
