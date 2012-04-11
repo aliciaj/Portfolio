@@ -60,11 +60,9 @@ if(!empty($_POST)){
   <!-- end CSS-->
 
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
-  <style>
-  	.works{
-  		display: none;
-  	}
-  </style>
+  
+  
+	
 </head>
 
 <body>
@@ -85,17 +83,21 @@ if(!empty($_POST)){
 	    
 	    <div class="home">
 		    <div class="left">
-			    <h2>Well Hello!</h2>
-			    <p>What a failure, I am a web developer and my site is unfinished! Art takes time, as they say. Trust me I guarantee it will be the awesome-sauce when its done. Be sure to come back and check!</p>
-			    
-			    <h2>Until then…</h2>
-			    <p>Feel free to check out my social profiles, download my <a href="resume_10_17_11_2.pdf" title="Download my resume">resume</a>, or send me a message, I would be happy to hear from you! </p>
 		    	
+			    <h2>Well Hello!</h2>
+			    <div class="intro">
+			    	<a href="./img/me_thumb.jpg" title="" id="avatar"><img src="img/me_thumb_extra.jpg" alt="Me Alicia" class="avatar"/></a>
+				    <p>I am a fun girl from a small town in Indiana. I traveled all the way down to Florida so that I could attend Full Sail University and make my dreams come true. Ever since I discovered HTML in Jr. High while surfing Neopets.com I have been interested in the Web and how it works. That interest is what drives me to continue to learn everything I can. I love what I do!</p>
+		    	</div>
+			    
+			    
+			    
+		    	<h2>I'm Social!</h2>
 		    	<div class="socialicons">
-		    		<a href="http://twitter.com/#!/aliciaj_" title="Aliciaj_ at Twitter"><img src="img/ico_twitter.png" alt="Follow me on Twitter"/></a>
-		    		<a href="http://zerply.com/aliciaj_" title="Aliciaj_ at Zerply"><img src="img/ico_zerply.png" alt="Check out my Zerply"/></a>
-		    		<a href="http://forrst.com/people/aliciaj" title="Aliciaj at Forrst"><img src="img/ico_forrst.png" alt="Forrst"/></a>
-		    		<a href="http://zootool.com/user/aliciaj/type:all/search:web" title="Aliciaj at Zootool"><img src="img/ico_zootools.png" alt="Zootools"/></a>
+		    		<a href="http://twitter.com/#!/aliciaj_" title="Aliciaj_ at Twitter" target="_blank"><img src="img/ico_twitter.png" alt="Follow me on Twitter"/></a>
+		    		<a href="http://zerply.com/aliciaj_" title="Aliciaj_ at Zerply" target="_blank"><img src="img/ico_zerply.png" alt="Check out my Zerply"/></a>
+		    		<a href="http://forrst.com/people/aliciaj" title="Aliciaj at Forrst" target="_blank"><img src="img/ico_forrst.png" alt="Forrst"/></a>
+		    		<a href="http://zootool.com/user/aliciaj/type:all/search:web" title="Aliciaj at Zootool" target="_blank"><img src="img/ico_zootools.png" alt="Zootools"/></a>
 		    		
 		    	</div>
 		    	<div class="clear"></div>
@@ -142,6 +144,11 @@ if(!empty($_POST)){
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
   
   <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+  
+  <!-- fancybox -->
+  <script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 
 
   <!-- scripts concatenated and minified via ant build script-->
@@ -149,25 +156,8 @@ if(!empty($_POST)){
   <script defer src="js/script.js"></script>
   <!-- end scripts-->
   
-  <script type="text/javascript">
-
-
-		$(function() {
-			
-			/*
-$('.works li').hover(function(){
-				$(this).find('div:first-child').css('display', 'block');
-			}, function(){
-				$(this).find('div:first-child').css('display', 'none');
-			}
-			
-			);
-*/
-		
-		
-		});
-
-	</script>
+  
+	
 
 
   <script> // Change UA-XXXXX-X to be your site's ID
@@ -176,6 +166,10 @@ $('.works li').hover(function(){
       load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
     });
   </script>
+  
+  <script type="text/javascript">
+		$("a#avatar").fancybox();
+	</script>
 
 
   <!--[if lt IE 7 ]>

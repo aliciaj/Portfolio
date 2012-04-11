@@ -144,7 +144,9 @@ a:hover{
 a:active{
 	color: #9a090c;
 }
-
+a.active{
+	color: #1ab2e3;
+}
 /* =================== 
 	 Main: 
 ================= */
@@ -181,7 +183,7 @@ nav a{
 	}
 h2{
 	color: #9a090c;
-	margin: 15px 0 0;
+	margin: 15px 0;
 }
 .socialicons{
 	background-image: url('../img/bgtri3.png');
@@ -197,7 +199,15 @@ h2{
 	padding: 2% 6%;
 }
 
-
+/* home about */
+.avatar{
+	float: left;
+	margin-right: 5%;
+}
+.intro{
+	overflow:hidden; 
+	margin-bottom: 15px;
+}
 /* form */
 input[type="submit"]{
 	background: url('../img/btn_send.png') no-repeat;
@@ -262,7 +272,7 @@ label.error{
 }
 .works li div:first-child{
 	position: absolute;
-/* 	display: none; */
+	display: none;
 	background: rgba(0,0,0,.8);
 	width: 100%;
 	height: 100%;
