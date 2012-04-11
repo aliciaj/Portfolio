@@ -61,9 +61,6 @@ if(!empty($_POST)){
 
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
   <style>
-  	.home{
-  		display: none;
-  	}
   	.works{
   		display: none;
   	}
@@ -79,9 +76,9 @@ if(!empty($_POST)){
 			<h1>Alicia <span>web developer</span></h1>
 			<nav>
 				<ul>
-					<li><a href="work.html" title="Check out what I have worked on!">Works</a></li>
-					<li><a href="" title="">About Me</a></li>
-					<li><a href="" title="">Contact</a></li>
+					<li><a href="index.php" title="Learn a little about me" class="active">About Me</a></li>
+					<li><a href="works.html" title="Check out what I have worked on!">Works</a></li>
+					<!-- <li><a href="" title="">Contact</a></li> -->
 				</ul>
 			</nav>
 	    </header>
@@ -128,108 +125,9 @@ if(!empty($_POST)){
 		</div><!-- home -->
 
 		
-		<div class="works">
-			
-			<ul>
-				<li>
-					<div class="one">
-						<h2>Site Title</h2>
-						<a href="" title="">Live link</a>
-						<a href="" title="">Quick Preview</a>
-						<a href="" title="">Case Study</a>
-					</div>
-					<div class="two">
-						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
-					</div>	
-				</li>
-				<li>
-					<div class="one">
-						<h2>Site Title</h2>
-						<a href="" title="">Live link</a>
-						<a href="" title="">Quick Preview</a>
-						<a href="" title="">Case Study</a>
-					</div>
-					<div class="two">
-						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
-					</div>
-					
-				</li>
-				<li>
-					<div class="one">
-						<h2>Site Title</h2>
-						<a href="" title="">Live link</a>
-						<a href="" title="">Quick Preview</a>
-						<a href="" title="">Case Study</a>
-					</div>
-					<div class="two">
-						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
-					</div>
-					
-				</li>
-				<li>
-					<div class="one">
-						<h2>Site Title</h2>
-						<a href="" title="">Live link</a>
-						<a href="" title="">Quick Preview</a>
-						<a href="" title="">Case Study</a>
-					</div>
-					<div class="two">
-						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
-					</div>
-					
-				</li>
-				<li>
-					<div class="one">
-						<h2>Site Title</h2>
-						<a href="" title="">Live link</a>
-						<a href="" title="">Quick Preview</a>
-						<a href="" title="">Case Study</a>
-					</div>
-					<div class="two">
-						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
-					</div>
-					
-				</li>
-				<li>
-					<div class="one">
-						<h2>Site Title</h2>
-						<a href="" title="">Live link</a>
-						<a href="" title="">Quick Preview</a>
-						<a href="" title="">Case Study</a>
-					</div>
-					<div class="two">
-						<a href="" title=""><img src="img/portfolio/barn2.jpg" alt="The Barn"/></a>
-					</div>
-					
-				</li>
-				
-			</ul>
-		</div><!-- works -->
-			
-		<div class="casestudy">
-			<h2>The Barn</h2>
-			<div class="imgmain"><img src="img/case/barn_main.jpg" alt="The Barn"/></div>
-			<dl>
-				<dt>Problem:</dt>
-				<dd>This site was done for Clayton Baker who in the summer seasons hires gigs for everyone in the area to come see. After all the bands pack up for the night its rave time! This site allows people to view all the information for the upcoming shows as well as a contact form for bands to sign up to play. It also has its own admin system I created by hand so that Clayton can update his own show information.</dd>
-			</dl>
-			<dl>
-				<dt>Skills Used:</dt>
-				<dd>Photoshop, Illustrator, HTML, CSS, Knockout.js, PHP.</dd>
-			</dl>
-			<dl>	
-				<dt>Live Link</dt>
-				<dd><a href="http://thebarninstjoe.com/" title="The Barn" target="_blank">The Barn</a></dd>
-			</dl>
-			<dl>	
-				<dt>Other Screenshots:</dt>
-				<dd>
-					
-				</dd>
-			</dl>
+		
 			
 		
-		</div><!-- casestudy -->
     	
 	</div><!-- content -->
     </div><!-- main -->
