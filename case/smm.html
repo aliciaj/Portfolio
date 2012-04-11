@@ -1,0 +1,125 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Alicia Brooks - Web Developer</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- end CSS-->
+
+  <script src="../js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+  	<div class="main" role="main">
+  	<div class="content">
+	    <header>
+			<h1>Alicia <span>web developer</span></h1>
+			<nav>
+				<ul>
+					<li><a href="../index.php" title="Learn a little about me">About Me</a></li>
+					<li><a href="../works.html" title="Check out what I have worked on!"  class="active">Works</a></li>
+					<!-- <li><a href="" title="">Contact</a></li> -->
+				</ul>
+			</nav>
+	    </header>
+
+		<div class="casestudy">
+			<h2>Support My Mission</h2>
+			<div class="imgmain"><img src="../img/case/smm/featured.jpg" alt="SupportMyMission"/></div>
+			<dl>
+				<dt>About:</dt>
+				<dd>Aside from web development I have a second burning passion: helping people. I came up with the idea for this site when trying to decide how I could combine my two favorite passions! Support My Mission allows users to raise money for missions trips by creating projects and receiving donations. This site includes a CMS for users to create and edit their missions.</dd>
+			</dl>
+			<dl>
+				<dt>Skills and Tools Used:</dt>
+				<dd>Photoshop, Illustrator, HTML, CSS, JQuery, PHP, CakePHP, Sequel Pro, MySQLWorkbench</dd>
+			</dl>
+			<dl>	
+				<dt>Live Link</dt>
+				<dd><a href="http://fullsail.supportmymission.org/final/missions/index" title="Visit SupportMyMission" target="_blank">SupportMyMission.org</a></dd>
+			</dl>
+			<dl>	
+				<dt>Other Screenshots:</dt>
+				<dd>
+			    	<ul>
+			    		<li><a rel="example_group" href="../img/case/smm/full_1.jpg" title="Home page does three main things: Displays a video introduction of what the site is about, Offers multiple callouts for signing up, and displays projects currently raising money."><img src="../img/case/smm/thumb_1.jpg" alt=""/></a></li>
+			    		<li><a rel="example_group" href="../img/case/smm/full_2.jpg" title="Each project display shows the name of the project, user raising money, a picture associated with their project, a description, and a bar showing how close they are to reaching their goal."><img src="../img/case/smm/thumb_2.jpg" alt=""/></a></li>
+			    		<li><a rel="example_group" href="../img/case/smm/full_3.jpg" title="The create account page takes the users information as well as gives them reasons why they should use SupportMyMission."><img src="../img/case/smm/thumb_3.jpg" alt=""/></a></li>
+			    		<li><a rel="example_group" href="../img/case/smm/full_4.jpg" title="Browse projects is similar to the home page only many more."><img src="../img/case/smm/thumb_4.jpg" alt=""/></a></li>
+			    		<li><a rel="example_group" href="../img/case/smm/full_5.jpg" title="Signing in doesn't required you going to a seperate page. You can do so at any point of your browsing experience."><img src="../img/case/smm/thumb_5.jpg" alt=""/></a></li>
+			    		<li><a rel="example_group" href="../img/case/smm/full_6.jpg" title="This is the dashboard for a logged in user. It shows all of your current missions and ones you have finished. You are able to individual donations as well as the progress made."><img src="../img/case/smm/thumb_6.jpg" alt=""/></a></li>
+			    		<li><a rel="example_group" href="../img/case/smm/full_7.jpg" title="Another page only viewable by a signed in user. You can create your mission here."><img src="../img/case/smm/thumb_7.jpg" alt=""/></a></li>
+			    	</ul>
+				</dd>
+			</dl>
+			
+		
+		</div><!-- casestudy -->
+    	
+	</div><!-- content -->
+    </div><!-- main -->
+    <div id="thanks">Thank you for contacting me!</div>
+    <footer>
+		<p>&copy;Copyright 2011 Alicia Brooks</p>
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+  
+  <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+
+<!-- fancybox -->
+  <script type="text/javascript" src="../js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="../js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="../js/plugins.js"></script>
+  <script defer src="../js/script.js"></script>
+  <!-- end scripts-->
+  
+  <script type="text/javascript">
+		$("a[rel=example_group]").fancybox({
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none',
+			'titlePosition' 	: 'over',
+			'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+				return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+			}
+		});
+
+
+	</script>
+
+
+  <script> // Change UA-XXXXX-X to be your site's ID
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>
